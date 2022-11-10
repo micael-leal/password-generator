@@ -1,6 +1,12 @@
 function generate(){
-     const password = Math.floor(Math.random() * 2000000000);
-     document.getElementById("password").value = password
+     const myArray = new Uint32Array(1);
+     let text = "";
+     crypto.getRandomValues(myArray);
+
+     for (const num of myArray) {
+       text += num 
+     }
+     document.getElementById("password").value = text;
     }
 
 function copy(){
