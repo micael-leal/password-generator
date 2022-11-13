@@ -38,7 +38,7 @@ function generate(length) {
      console.log(generate(len)); 
     }
     else if (lettersCheck.checked && numbersCheck.checked && symbolsCheck.checked == false){
-     const characters ='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+     const characters ='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ012345678901234567890123456789012345678901234567890123456789';
      let result = '';
      const charactersLength = characters.length;
      for (let i = 0; i < length; i++ ) {
@@ -48,7 +48,7 @@ function generate(length) {
      console.log(generate(len)); 
     }
     else if (lettersCheck.checked && numbersCheck.checked && symbolsCheck.checked){
-     const characters ='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!@#$%&*_-.';
+     const characters ='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ012345678901234567890123456789012345678901234567890123456789!@#$%&*_-.!@#$%&*_-.!@#$%&*_-.!@#$%&*_-.!@#$%&*_-.';
      let result = '';
      const charactersLength = characters.length;
      for (let i = 0; i < length; i++ ) {
@@ -58,7 +58,7 @@ function generate(length) {
      console.log(generate(len)); 
     }
     else if (lettersCheck.checked && numbersCheck.checked == false && symbolsCheck.checked){
-     const characters ='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%&*_-.';
+     const characters ='abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%&*_-.!@#$%&*_-.!@#$%&*_-.!@#$%&*_-.!@#$%&*_-.';
      let result = '';
      const charactersLength = characters.length;
      for (let i = 0; i < length; i++ ) {
