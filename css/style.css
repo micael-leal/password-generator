@@ -6,7 +6,7 @@ body{
     min-height: 100vh;
 }
 h2{
-    font-family: cursive;
+    font-family: monospace;
 }
 
 .settings{
@@ -56,7 +56,7 @@ button{
     width: 120px;
     display: flex;
     color: white;
-    font-family: cursive;
+    font-family: monospace;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
